@@ -3,22 +3,29 @@
     "banner": {
       "title": "Fullstack Developer"
     },
-    "projects":{
+    "projects": {
       "title": "Projects",
-      "battle":{
+      "battle": {
         "description": "Battleship is an elaborate amusement park app. It is based on the traditional board game with the same name. The package requested the implementation of this in real life where the players were the boats, so they worked hand in hand with the electronics team, connecting the application through a serial port and sending the data to the circuit."
       },
       "secret": {
         "description": "Secret Agent is an application created for the kidzania amusement park, the application is a complement to an attraction, where the child pretends to be on a secret mission"
+      },
+      "mentaliagame": {
+        "description": "Mentalia Kids, is a mobile application made for a school with the purpose of complementing the children's classes."
+      },
+      "enfa": {
+        "description": "Enfa it is a personal project, since in my town we do not have delivery services try to make a similar application."
+      },
+      "redherrajes": {
+        "description": "Red de herrajes is an informative page made with wordpress"
       }
     },
     "common": {
       "buttons": {
         "link": "Link"
       },
-      "labels": {
-
-      }
+      "labels": {}
     }
   }
 }

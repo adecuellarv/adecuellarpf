@@ -22,7 +22,7 @@ const Projects = () => {
                     {!openSingle?.title &&
                         projectsList.map((i, key) => {
                             return (
-                                <Col xs={12} sm={12} md={6} lg={6} key={key} onClick={() => setOpenSingle(i)}>
+                                <Col xs={12} sm={12} md={4} lg={4} key={key} onClick={() => setOpenSingle(i)}>
                                     <Card
                                         elements={i}
                                     />

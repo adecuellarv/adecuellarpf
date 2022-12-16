@@ -10,6 +10,15 @@
       },
       "secret": {
         "description": "Secret Agent es una aplicación creada para el parque de diversiones kidzania, la aplicación es un complemento de una atracción, donde el niño simula estar en una misión secreta"
+      },
+      "mentaliagame":{
+        "description": "Mentalia Kids, es una aplicación mobile realizada para una escuela con la finalidad de complementar las clases de los niños."
+      },
+      "enfa": {
+        "description": "En fa es un proyecto personal, dado que en mi pueblo no contamos con servicios de delivery trate de hacer una aplicación parecida. "
+      },
+      "redherrajes": {
+        "description": "Red de herrajes es una pagína informativa realizada con wordpress"
       }
     },
     "common": {
