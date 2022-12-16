@@ -3,6 +3,12 @@
     "banner": {
       "title": "Fullstack Developer"
     },
+    "projects":{
+      "title": "Projects",
+      "battle":{
+        "description": "Battleship is an elaborate amusement park app. It is based on the traditional board game with the same name. The package requested the implementation of this in real life where the players were the boats, so they worked hand in hand with the electronics team, connecting the application through a serial port and sending the data to the circuit."
+      }
+    },
     "common": {
       "buttons": {
 
