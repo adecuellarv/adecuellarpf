@@ -25,6 +25,22 @@ import p5_cover from "./images/redherrajes/cover.png";
 import p5_img1 from "./images/redherrajes/1.png";
 import p5_img2 from "./images/redherrajes/2.png";
 
+import p6_cover from "./images/occ/cover.png";
+import p6_img1 from "./images/occ/1.png";
+import p6_img2 from "./images/occ/2.png";
+
+import p7_cover from "./images/mentaliatest/cover.png";
+import p7_img1 from "./images/mentaliatest/1.png";
+import p7_img2 from "./images/mentaliatest/2.png";
+
+import p8_cover from "./images/mentalia/cover.png";
+import p8_img1 from "./images/mentalia/1.png";
+import p8_img2 from "./images/mentalia/2.png";
+
+import p9_cover from "./images/leaseandfleet/cover.png";
+import p9_img1 from "./images/leaseandfleet/1.png";
+import p9_img2 from "./images/leaseandfleet/2.png";
+
 export const getProjectsList = (t) => ([
     {
         title: "Battleship",
@@ -82,5 +98,45 @@ export const getProjectsList = (t) => ([
             p5_img2
         ],
         link: "https://reddeherrajes.mx/"
+    },
+    {
+        title: "OCCMundial",
+        description: t('projects.occ.description'),
+        cover: p6_cover,
+        gallery: [
+            p6_img1,
+            p6_img2
+        ],
+        link: "https://www.occ.com.mx/"
+    },
+    {
+        title: "Mentalia Test",
+        description: t('projects.mentaliatest.description'),
+        cover: p7_cover,
+        gallery: [
+            p7_img1,
+            p7_img2
+        ],
+        link: ""
+    },
+    {
+        title: "Mentalia",
+        description: t('projects.mentalia.description'),
+        cover: p8_cover,
+        gallery: [
+            p8_img1,
+            p8_img2
+        ],
+        link: "https://www.mentalia.mx/"
+    },
+    {
+        title: "Leaseandfleet",
+        description: t('projects.leaseandfleet.description'),
+        cover: p9_cover,
+        gallery: [
+            p9_img1,
+            p9_img2
+        ],
+        link: "https://www.leaseandfleet.com/i"
     }
 ]);

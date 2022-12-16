@@ -39,8 +39,10 @@ const Single = ({ classes, item, setOpenSingle }) => {
                     <Col xs={12} sm={12} md={5} lg={5}>
                         <h1 className={classes.adecuellar}>{item.title}</h1>
                         <p className={classes.softdev}>{item.description}</p>
-                        <div>
-                            <a className={classes.link} href={item.link} target="_blank">{t('common.buttons.link')}</a>
+                        <div style={{marginBottom: 40}}>
+                            {item.link &&
+                                <a className={classes.link} href={item.link} target="_blank">{t('common.buttons.link')}</a>
+                            }
                         </div>
                     </Col>
                     <Col xs={12} sm={12} md={7} lg={7}>
