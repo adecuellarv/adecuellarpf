@@ -7,11 +7,14 @@
       "title": "Projects",
       "battle":{
         "description": "Battleship is an elaborate amusement park app. It is based on the traditional board game with the same name. The package requested the implementation of this in real life where the players were the boats, so they worked hand in hand with the electronics team, connecting the application through a serial port and sending the data to the circuit."
+      },
+      "secret": {
+        "description": "Secret Agent is an application created for the kidzania amusement park, the application is a complement to an attraction, where the child pretends to be on a secret mission"
       }
     },
     "common": {
       "buttons": {
-
+        "link": "Link"
       },
       "labels": {
 

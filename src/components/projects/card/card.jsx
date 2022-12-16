@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Card = ({ classes, elements }) => {
+
     return (
         <div className={classes.card}>
-            <img 
+            <img
                 src={elements.cover}
                 className={classes.cover}
             />
