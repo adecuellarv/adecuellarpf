@@ -1,9 +1,8 @@
-function App() {
+import Banner from "./components/banner";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>Holi</h1>
-      </header>
+    <div>
+      <Banner />
     </div>
   );
 }
