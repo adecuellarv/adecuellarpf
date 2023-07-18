@@ -43,53 +43,6 @@ import p9_img2 from "./images/leaseandfleet/2.png";
 
 export const getProjectsList = (t) => ([
     {
-        title: "Battleship",
-        description: t('projects.battle.description'),
-        cover: p1_cover,
-        gallery: [
-            p1_img1,
-            p1_img2,
-            p1_img3,
-            p1_img4
-        ],
-        link: "https://github.com/adecuellarv/electron-test/tree/react-mode/my-app"
-    },
-    {
-        title: "Secret Agent",
-        description: t('projects.secret.description'),
-        cover: p2_cover,
-        gallery: [
-            p2_img1,
-            p2_img2,
-            p2_img3
-        ],
-        link: "https://adeev.com.mx/projects/agentskids/"
-    },
-    {
-        title: "Mentalia Kids",
-        description: t('projects.mentaliagame.description'),
-        cover: p3_cover,
-        gallery: [
-            p3_img1,
-            p3_img2,
-            p3_img3
-        ],
-        link: "https://drive.google.com/file/d/16tE0eaCuROmGUwu-jfc6sNuWJLx3ZYW-/view?usp=share_link"
-    },
-    {
-        title: "Enfa",
-        description: t('projects.enfa.description'),
-        cover: p4_cover,
-        gallery: [
-            p4_img1,
-            p4_img2,
-            p4_img3,
-            p4_img4,
-            p4_img5
-        ],
-        link: "https://adeev.com.mx/projects/enfa/"
-    },
-    {
         title: "Red de herrajes",
         description: t('projects.redherrajes.description'),
         cover: p5_cover,
@@ -137,6 +90,53 @@ export const getProjectsList = (t) => ([
             p9_img1,
             p9_img2
         ],
-        link: "https://www.leaseandfleet.com/i"
+        link: "https://www.leaseandfleet.com/"
+    },
+    {
+        title: "Battleship",
+        description: t('projects.battle.description'),
+        cover: p1_cover,
+        gallery: [
+            p1_img1,
+            p1_img2,
+            p1_img3,
+            p1_img4
+        ],
+        link: ""
+    },
+    {
+        title: "Secret Agent",
+        description: t('projects.secret.description'),
+        cover: p2_cover,
+        gallery: [
+            p2_img1,
+            p2_img2,
+            p2_img3
+        ],
+        link: "https://adeev.com.mx/projects/agentskids/"
+    },
+    {
+        title: "Mentalia Kids",
+        description: t('projects.mentaliagame.description'),
+        cover: p3_cover,
+        gallery: [
+            p3_img1,
+            p3_img2,
+            p3_img3
+        ],
+        link: "https://drive.google.com/file/d/16tE0eaCuROmGUwu-jfc6sNuWJLx3ZYW-/view?usp=share_link"
+    },
+    {
+        title: "Enfa",
+        description: t('projects.enfa.description'),
+        cover: p4_cover,
+        gallery: [
+            p4_img1,
+            p4_img2,
+            p4_img3,
+            p4_img4,
+            p4_img5
+        ],
+        link: "https://adeev.com.mx/projects/enfa/"
     }
 ]);
