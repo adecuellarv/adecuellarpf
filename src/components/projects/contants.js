@@ -41,6 +41,20 @@ import p9_cover from "./images/leaseandfleet/cover.png";
 import p9_img1 from "./images/leaseandfleet/1.png";
 import p9_img2 from "./images/leaseandfleet/2.png";
 
+import p10_cover from "./images/agricole/cover.png";
+import p10_img1 from "./images/agricole/1.png";
+import p10_img2 from "./images/agricole/2.png";
+
+import p11_cover from "./images/greenlander/cover.png";
+import p11_img1 from "./images/greenlander/1.png";
+import p11_img2 from "./images/greenlander/2.png";
+import p11_img3 from "./images/greenlander/2.png";
+
+import p12_cover from "./images/reddeherrajes/cover.png";
+import p12_img1 from "./images/reddeherrajes/1.png";
+import p12_img2 from "./images/reddeherrajes/2.png";
+import p12_img3 from "./images/reddeherrajes/2.png";
+
 export const getProjectsList = (t) => ([
     {
         title: "Red de herrajes",
@@ -61,6 +75,17 @@ export const getProjectsList = (t) => ([
             p6_img2
         ],
         link: "https://www.occ.com.mx/"
+    },
+    {
+        title: "Greenlander",
+        description: t('projects.greenlander.description'),
+        cover: p11_cover,
+        gallery: [
+            p11_img1,
+            p11_img2,
+            p11_img3
+        ],
+        link: "https://greenlander.com.mx/"
     },
     {
         title: "Mentalia Test",
@@ -125,6 +150,16 @@ export const getProjectsList = (t) => ([
             p3_img3
         ],
         link: "https://drive.google.com/file/d/16tE0eaCuROmGUwu-jfc6sNuWJLx3ZYW-/view?usp=share_link"
+    },
+    {
+        title: "Agricole",
+        description: t('projects.agricole.description'),
+        cover: p10_cover,
+        gallery: [
+            p10_img1,
+            p10_img2,
+        ],
+        link: "https://agricole.mx/"
     },
     {
         title: "Enfa",

@@ -31,6 +31,15 @@
       },
       "leaseandfleet": {
         "description": "leaseandfleet is an information platform"
+      },
+      "agricole": {
+        "description": "Landing page made with html, css y js"
+      },
+      "greenlander": {
+        "description": "E-commercer made with shopify"
+      },
+      "reddeherrajes": {
+        "description": "Website for product display, all content is manageable with cms"
       }
     },
     "common": {
